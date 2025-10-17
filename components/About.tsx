@@ -199,17 +199,17 @@ const About = () => {
             {/* About Content */}
             <motion.div variants={itemVariants} className="space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
-                Hi! I'm Ahd, a dual-degree Software Engineering student with a passion for AI and innovation.
+                Hi! I&apos;m Ahd, a dual-degree Software Engineering student with a passion for AI and innovation.
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                I'm Ahd Mamdouh, a dual-degree Software Engineering student at Galala University and Arizona State University, 
+                I&apos;m Ahd Mamdouh, a dual-degree Software Engineering student at Galala University and Arizona State University, 
                 driven by a deep passion for technology and the world of Artificial Intelligence. I thrive on exploring how 
                 intelligent systems can transform everyday life—from automating simple tasks to building smarter, more connected experiences.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 With a love for both creativity and problem-solving, I enjoy turning complex ideas into intuitive digital solutions. 
                 My journey blends technical rigor with innovation, where coding meets imagination and curiosity fuels progress. 
-                I'm constantly learning, experimenting, and pushing the boundaries of what technology can do to make the future smarter and more human.
+                I&apos;m constantly learning, experimenting, and pushing the boundaries of what technology can do to make the future smarter and more human.
               </p>
 
               {/* Interest Cards */}

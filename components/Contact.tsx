@@ -294,12 +294,12 @@ const Contact = () => {
           <motion.div variants={itemVariants} className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                Let's collaborate and innovate together!
+                Let&apos;s collaborate and innovate together!
               </h3>
               <p className="text-gray-600 mb-8">
-                I'm always excited to discuss new projects, hackathons, research opportunities, 
-                or any tech challenges. Whether it's AI, smart systems, web development, or 
-                leadership roles, I'm ready to make an impact!
+                I&apos;m always excited to discuss new projects, hackathons, research opportunities, 
+                or any tech challenges. Whether it&apos;s AI, smart systems, web development, or 
+                leadership roles, I&apos;m ready to make an impact!
               </p>
             </div>
 

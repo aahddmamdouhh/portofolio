@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Connect */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Let's Connect</h4>
+            <h4 className="text-lg font-semibold mb-4">Let&apos;s Connect</h4>
             <p className="text-gray-400 mb-2">
               Feel free to reach out for collaborations or just a friendly hello
             </p>
