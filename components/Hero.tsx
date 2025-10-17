@@ -218,7 +218,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          Software Engineer | Front-End Developer
+          Software Engineer | Front-End Developer | UI/UX Designer
         </motion.p>
 
         <motion.p 
@@ -285,35 +285,6 @@ const Hero = () => {
           </motion.a>
         </motion.div>
 
-        {/* Tech Stats Animation */}
-        <motion.div
-          className="flex justify-center gap-8 mt-12"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1, duration: 0.6 }}
-        >
-          <motion.div
-            className="text-center"
-            whileHover={{ scale: 1.1 }}
-          >
-            <div className="text-2xl font-bold text-purple-600">3+</div>
-            <div className="text-sm text-gray-500">Years Experience</div>
-          </motion.div>
-          <motion.div
-            className="text-center"
-            whileHover={{ scale: 1.1 }}
-          >
-            <div className="text-2xl font-bold text-pink-600">9+</div>
-            <div className="text-sm text-gray-500">Projects</div>
-          </motion.div>
-          <motion.div
-            className="text-center"
-            whileHover={{ scale: 1.1 }}
-          >
-            <div className="text-2xl font-bold text-blue-600">100%</div>
-            <div className="text-sm text-gray-500">Passion</div>
-          </motion.div>
-        </motion.div>
       </motion.div>
     </section>
   );

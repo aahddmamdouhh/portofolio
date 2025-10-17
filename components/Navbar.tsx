@@ -43,7 +43,7 @@ const Navbar = () => {
             className="text-2xl font-bold gradient-text"
             whileHover={{ scale: 1.05 }}
           >
-            Ahd Mamdouh's Portfolio
+            Ahd Mamdouh&apos;s Portfolio
           </motion.a>
 
           {/* Desktop Navigation */}

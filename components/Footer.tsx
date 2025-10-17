@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold gradient-text mb-4">Ahd Mamdouh's Portfolio</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Ahd Mamdouh&apos;s Portfolio</h3>
             <p className="text-gray-400">
               Software Engineer & Creative Technologist passionate about building
               beautiful digital experiences.

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { ExternalLink, Github, X, Calendar, Code, Users, Award } from "lucide-react";
+import Image from "next/image";
 
 const Projects = () => {
   const ref = useRef(null);
@@ -388,9 +389,11 @@ const Projects = () => {
 
                   {/* Project Image */}
                   <div className="mb-6">
-                    <img
+                    <Image
                       src={projects[selectedProject].image}
                       alt={projects[selectedProject].title}
+                      width={800}
+                      height={256}
                       className="w-full h-64 object-cover rounded-xl"
                     />
                   </div>
