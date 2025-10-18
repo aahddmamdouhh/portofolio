@@ -253,7 +253,7 @@ const Hero = () => {
           </motion.a>
 
           <motion.a
-            href="/resume.pdf"
+            href="/Ahd's Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Code2, Palette, Sparkles } from "lucide-react";
+import Image from "next/image";
 
 const About = () => {
   const ref = useRef(null);
@@ -183,14 +184,15 @@ const About = () => {
                   }}
                 />
                 <div className="absolute inset-2 glass rounded-full flex items-center justify-center overflow-hidden">
-                  <div className="w-56 h-56 md:w-72 md:h-72 bg-gradient-to-br from-primary-200 to-accent-200 rounded-full flex items-center justify-center">
-                    {/* Placeholder for profile image - Replace with your actual photo */}
-                    <div className="w-full h-full bg-gray-200 rounded-full flex items-center justify-center">
-                      <span className="text-4xl md:text-6xl text-gray-400">📸</span>
-                      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-white/90 px-2 py-1 rounded text-xs text-gray-600">
-                        Add your photo here
-                      </div>
-                    </div>
+                  <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden">
+                    <Image
+                      src="/profile-photo.jpg"
+                      alt="Ahd Mamdouh - Software Engineer"
+                      width={300}
+                      height={300}
+                      className="w-full h-full object-cover rounded-full"
+                      priority
+                    />
                   </div>
                 </div>
               </div>
